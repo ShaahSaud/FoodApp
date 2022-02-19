@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home"/>
+
+        <item android:id="@+id/pr"
+            android:icon="@drawable/cooking"
+            android:title="Paitent Recipies"/>
+
+        <item android:id="@+id/res"
+            android:icon="@drawable/restaurant"
+            android:title="Resturants"/>
+
+        <item android:id="@+id/user"
+            android:icon="@drawable/userp"
+            android:title="User"/>
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
